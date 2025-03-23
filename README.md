@@ -2,17 +2,15 @@
 
 This repository provides package build instructions for tools and libraries around Fortran compatible with the [Homebrew toolchain](https://brew.sh).
 
-For example you can install *fpm* by tapping this repository
+For example you can install *lfortran* by tapping this repository
 
-```
-`brew tap fortran-lang/homebrew-fortran`
-brew install fpm
+```sh
+brew tap fortran-lang/homebrew-fortran
 brew install lfortran
 ```
 
 Available packages from this tap are
 
-- [`fpm`](https://fpm.fortran-lang.org): Fortran package manager
 - [`lfortran`](https://lfortran.org): Modern interactive LLVM-based Fortran compiler
 
 
